@@ -1,0 +1,194 @@
+.glass, .info-card, .skill-group {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: 1px solid var(--line);
+  font-size: .9rem;
+}
+
+.primary {
+  background: var(--accent);
+  color: var(--bg);
+  border-color: var(--accent);
+  font-weight: 700;
+}
+
+.ghost {
+  border-color: transparent;
+}
+
+.icon-button, .cmd-trigger {
+  min-width: 40px;
+  height: 40px;
+  border-radius: 8px;
+}
+
+.theme-toggle .sun {
+  display: none;
+}
+
+[data-theme=light] .theme-toggle .sun {
+  display: inline;
+}
+
+[data-theme=light] .theme-toggle .moon {
+  display: none;
+}
+
+.section-heading {
+  margin-bottom: 44px;
+  position: relative;
+}
+
+.section-heading>p, .eyebrow, .kicker {
+  font-size: .75rem;
+  letter-spacing: .14em;
+  color: var(--accent);
+}
+
+.heading-line {
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--accent);
+  margin-top: 24px;
+}
+
+.text-link {
+  display: inline-block;
+  color: var(--accent);
+  margin-top: 18px;
+}
+
+.chip-list, .mini-stack, .skill-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+}
+
+.chip-list>li, .chip-list>span, .mini-stack>span, .skill-chips>i {
+  font-size: .72rem;
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 4px 9px;
+  font-style: normal;
+  color: var(--muted);
+}
+
+.status-dot {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: var(--accent);
+  border-radius: 50%;
+  margin-inline-end: 10px;
+  box-shadow: 0 0 15px #6ee7c555;
+}
+
+.status-badge {
+  font-size: .75rem;
+  margin-bottom: 24px;
+}
+
+.muted-section {
+  background: color-mix(in srgb,var(--surface) 35%,var(--bg));
+}
+
+.data-note, .needs-data, .truth-note {
+  font-size: .78rem;
+  color: var(--muted);
+}
+
+.project-card {
+  overflow: hidden;
+  transition: transform .2s,border-color .2s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+.project-body {
+  padding: 26px;
+}
+
+.project-body p {
+  font-size: .9rem;
+}
+
+.project-meta, .project-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: .68rem;
+  color: var(--accent);
+  margin-bottom: 18px;
+}
+
+.project-links {
+  margin: 24px 0 0;
+}
+
+.info-card, .focus-card, .skill-group, .education-card {
+  padding: 28px;
+}
+
+.card-index, .focus-card>span, .skill-group>span {
+  color: var(--accent);
+  display: block;
+  font: 12px monospace;
+  margin-bottom: 24px;
+}
+
+.empty-state {
+  display: flex;
+  gap: 24px;
+  padding: 32px;
+}
+
+.empty-state>span {
+  font-size: 2rem;
+}
+
+.filter-bar {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+}
+
+.filter-bar button {
+  padding: 8px 16px;
+  border-radius: 30px;
+}
+
+.filter-bar button[aria-pressed=true] {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.case-study {
+  scroll-margin-top: 110px;
+}
+
+.case-study details {
+  margin-top: 20px;
+  font-size: .85rem;
+}
+
+.case-study summary {
+  cursor: pointer;
+  color: var(--accent);
+}

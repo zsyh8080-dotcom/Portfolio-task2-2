@@ -1,0 +1,1096 @@
+<!doctype html>
+<html lang="fa" dir="rtl" data-theme="dark">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="AI engineering portfolio of Zahrasadat Yaghoubi Hashjin — machine learning, computer vision, generative AI, RAG and image forensics.">
+    <meta name="theme-color" content="#070a0f">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://zsyh8080-dotcom.github.io/Portfolio-task2-2/">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Zahrasadat Yaghoubi | AI Engineer">
+    <meta property="og:description" content="AI, machine learning, computer vision and RAG systems portfolio.">
+    <meta property="og:url" content="https://zsyh8080-dotcom.github.io/Portfolio-task2-2/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Zahrasadat Yaghoubi | AI Engineer">
+    <meta name="twitter:description" content="AI, machine learning, computer vision and RAG systems portfolio.">
+    <link rel="manifest" href="site.webmanifest">
+    <title>Zahrasadat Yaghoubi | AI Engineer</title>
+    <script src="js/boot.js"></script>
+    <link rel="preload" href="assets/fonts/Vazirmatn.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/sections.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/command-palette.css">
+    <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/refinement.css">
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "Person", "name": "Zahrasadat Yaghoubi Hashjin", "alternateName": "زهراسادات یعقوبی هشجین", "url": "https://zsyh8080-dotcom.github.io/Portfolio-task2-2/", "email": "mailto:zsy.1414@gmail.com", "sameAs": ["https://www.linkedin.com/in/zahra-yaghoubi-17691013a", "https://github.com/zsyh8080-dotcom/", "https://github.com/zsyhd"], "jobTitle": "AI Engineer", "knowsAbout": ["Artificial Intelligence", "Machine Learning", "Deep Learning", "Computer Vision", "Generative AI", "RAG", "Image Forensics"]}</script>
+    <script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "Zahrasadat AI Portfolio", "url": "https://zsyh8080-dotcom.github.io/Portfolio-task2-2/", "inLanguage": ["en", "fa"], "description": "Bilingual portfolio"}</script>
+    <link rel="stylesheet" href="css/effects.css">
+    <link rel="stylesheet" href="css/portfolio-layout.css">
+    <link rel="stylesheet" href="css/ai-console.css">
+    <link rel="icon" type="image/svg+xml" href="assets/zy-mark.svg">
+    <link rel="stylesheet" href="css/light-theme.css">
+    <link rel="stylesheet" href="css/interaction-polish.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#main" data-i18n="a11y.skip">رفتن به محتوای اصلی</a>
+    <header class="site-header" id="site-header">
+      <nav class="nav shell" aria-label="منوی اصلی" data-aria-en="Primary navigation" data-aria-fa="منوی اصلی">
+        <a class="brand" href="#home" aria-label="خانهٔ زهراسادات یعقوبی هشجین" data-aria-en="Zahrasadat Yaghoubi Hashjin home" data-aria-fa="خانهٔ زهراسادات یعقوبی هشجین">
+          <span class="brand-mark">ZY</span>
+          <span class="brand-copy">
+            <b>
+              <span>
+                <span data-fa="زهراسادات" data-en="Zahrasadat">زهراسادات</span>
+                <span class="name-neon" data-fa="یعقوبی هشجین" data-en="Yaghoubi Hashjin">یعقوبی هشجین</span>
+              </span>
+            </b>
+            <small dir="ltr">AI Engineer | Researcher</small>
+          </span>
+        </a>
+        <div class="header-links" id="nav-links">
+          <a href="#about" data-section="about">
+            <span data-fa="دربارهٔ من" data-en="About me">دربارهٔ من</span>
+          </a>
+          <a href="#skills" data-section="skills">
+            <span data-fa="مهارت‌ها" data-en="Skills">مهارت‌ها</span>
+          </a>
+          <a href="#projects" data-section="projects">
+            <span data-fa="پروژه‌ها" data-en="Projects">پروژه‌ها</span>
+          </a>
+          <a href="#research" data-section="research">
+            <span data-fa="پژوهش" data-en="Research">پژوهش</span>
+          </a>
+          <a href="#experience" data-section="experience">
+            <span data-fa="تجربه" data-en="Experience">تجربه</span>
+          </a>
+          <a href="#contact" data-section="contact">
+            <span data-fa="ارتباط" data-en="Contact">ارتباط</span>
+          </a>
+        </div>
+        <button class="nav-toggle icon-button" id="nav-toggle" type="button" aria-label="باز کردن منو" data-aria-en="Open menu" data-aria-fa="باز کردن منو" aria-expanded="false" aria-controls="nav-links">
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-actions">
+          <button class="cmd-trigger" id="cmd-trigger" type="button" aria-label="جست‌وجو در سایت" data-aria-en="Search the portfolio" data-aria-fa="جست‌وجو در سایت" title="Ctrl / ⌘ + K">
+            <svg viewbox="0 0 24 24" aria-hidden="true">
+              <circle cx="10.5" cy="10.5" r="6.5"></circle>
+              <path d="m16 16 5 5"></path>
+            </svg>
+          </button>
+          <button class="language-toggle icon-button" id="language-toggle" type="button" aria-label="تغییر زبان" data-aria-en="Switch language" data-aria-fa="تغییر زبان">
+            <span id="language-label">EN</span>
+          </button>
+          <button class="theme-toggle icon-button" id="theme-toggle" type="button" aria-label="تغییر پوسته" data-aria-en="Switch color theme" data-aria-fa="تغییر پوسته">
+            <span class="sun" aria-hidden="true">☼</span>
+            <span class="moon" aria-hidden="true">◐</span>
+          </button>
+        </div>
+      </nav>
+    </header>
+    <div class="portfolio-layout">
+      <aside class="profile-sidebar" aria-label="کارت پروفایل" data-aria-fa="کارت پروفایل" data-aria-en="Profile card">
+        <div class="profile-top">
+          <div class="portrait-wrap">
+            <img class="profile-portrait" src="assets/portrait/zahrasadat.png" width="400" height="500" alt="زهراسادات یعقوبی هشجین" data-alt-fa="زهراسادات یعقوبی هشجین" data-alt-en="Zahrasadat Yaghoubi Hashjin" fetchpriority="high">
+            <span class="portrait-scan" aria-hidden="true"></span>
+            <span class="portrait-status" aria-hidden="true"></span>
+          </div>
+          <div class="profile-intro">
+            <h2 class="profile-name">
+              <span data-fa="زهراسادات" data-en="Zahrasadat">زهراسادات</span>
+              <span data-fa="یعقوبی هشجین" data-en="Yaghoubi Hashjin">یعقوبی هشجین</span>
+            </h2>
+            <p class="profile-role" dir="ltr">AI Researcher | Developer</p>
+            <p class="profile-location">
+              <svg class="" viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M19 10c0 5-7 11-7 11S5 15 5 10a7 7 0 0 1 14 0Z"></path>
+                <circle cx="12" cy="10" r="2"></circle>
+              </svg>
+              <span data-fa="تهران، ایران" data-en="Tehran, Iran">تهران، ایران</span>
+            </p>
+          </div>
+        </div>
+        <div class="console-nav-wrap">
+          <nav class="sidebar-nav" id="profile-navigation" tabindex="0" aria-label="بخش‌های سایت — قابل اسکرول" data-aria-fa="بخش‌های سایت — قابل اسکرول" data-aria-en="Portfolio sections — scrollable">
+            <a href="#about" data-section="about" class="active" aria-current="location">
+              <span class="nav-number" aria-hidden="true">01</span>
+              <span data-fa="دربارهٔ من" data-en="About me">دربارهٔ من</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <circle cx="12" cy="7" r="3"></circle>
+                <path d="M5 21v-3a7 7 0 0 1 14 0v3"></path>
+              </svg>
+            </a>
+            <a href="#skills" data-section="skills" class="">
+              <span class="nav-number" aria-hidden="true">02</span>
+              <span data-fa="مهارت‌ها" data-en="Skills">مهارت‌ها</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="3" width="6" height="6" rx="1"></rect>
+                <rect x="15" y="3" width="6" height="6" rx="1"></rect>
+                <rect x="3" y="15" width="6" height="6" rx="1"></rect>
+                <rect x="15" y="15" width="6" height="6" rx="1"></rect>
+              </svg>
+            </a>
+            <a href="#projects" data-section="projects" class="">
+              <span class="nav-number" aria-hidden="true">03</span>
+              <span data-fa="پروژه‌ها" data-en="Projects">پروژه‌ها</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M3 8V5a2 2 0 0 1 2-2h5l3 3h6a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2Z"></path>
+              </svg>
+            </a>
+            <a href="#research" data-section="research" class="">
+              <span class="nav-number" aria-hidden="true">04</span>
+              <span data-fa="پژوهش" data-en="Research">پژوهش</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M12 5Q7 2 3 4v15q5-2 9 1 4-3 9-1V4q-4-2-9 1v15"></path>
+              </svg>
+            </a>
+            <a href="#experience" data-section="experience" class="">
+              <span class="nav-number" aria-hidden="true">05</span>
+              <span data-fa="تجربه" data-en="Experience">تجربه</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="7" width="18" height="14" rx="2"></rect>
+                <path d="M8 7V3h8v4M3 12q9 5 18 0M12 12v4"></path>
+              </svg>
+            </a>
+            <a href="#education" data-section="education" class="">
+              <span class="nav-number" aria-hidden="true">06</span>
+              <span data-fa="تحصیلات" data-en="Education">تحصیلات</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <path d="m2 8 10-5 10 5-10 5Z M6 10v7q6 5 12 0v-7M22 8v9"></path>
+              </svg>
+            </a>
+            <a href="#certifications" data-section="certifications" class="">
+              <span class="nav-number" aria-hidden="true">07</span>
+              <span data-fa="مدارک و گواهی‌ها" data-en="Certificates">مدارک و گواهی‌ها</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+                <path d="M8 6h8M8 10h8m-4 3 2 3-2 4-2-4Z"></path>
+              </svg>
+            </a>
+            <a href="#contact" data-section="contact" class="">
+              <span class="nav-number" aria-hidden="true">08</span>
+              <span data-fa="ارتباط" data-en="Contact">ارتباط</span>
+              <svg class="nav-icon" viewbox="0 0 24 24" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                <path d="m4 7 8 6 8-6"></path>
+              </svg>
+            </a>
+          </nav>
+          <span class="console-scroll-hint" aria-hidden="true">↓</span>
+        </div>
+        <div class="profile-footer">
+          <div class="profile-socials">
+            <a class="social-icon" href="https://www.linkedin.com/in/zahra-yaghoubi-17691013a" target="_blank" rel="noopener noreferrer" aria-label="لینکدین" data-aria-fa="لینکدین" data-aria-en="LinkedIn" title="LinkedIn">
+              <svg viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M20.5 2h-17A1.5 1.5 0 0 0 2 3.5v17A1.5 1.5 0 0 0 3.5 22h17a1.5 1.5 0 0 0 1.5-1.5v-17A1.5 1.5 0 0 0 20.5 2ZM8 19H5V9h3ZM6.5 7.7A1.7 1.7 0 1 1 6.5 4a1.7 1.7 0 0 1 0 3.7ZM19 19h-3v-5.2c0-1.3-.5-2.1-1.6-2.1S12.5 12.5 12.5 14v5h-3V9h2.9v1.4A3.2 3.2 0 0 1 15.2 9c2.3 0 3.8 1.5 3.8 4.5Z"></path>
+              </svg>
+            </a>
+            <a class="social-icon" href="#contact" aria-label="تماس" data-aria-fa="تماس" data-aria-en="Contact" title="Contact">
+              <svg viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M6.6 2.6a1.8 1.8 0 0 0-2.1-.5L2.9 3a2 2 0 0 0-1 2c.4 8.5 8.6 16.7 17.1 17.1a2 2 0 0 0 2-1l.9-1.6a1.8 1.8 0 0 0-.5-2.1l-3.6-2.8a1.8 1.8 0 0 0-2.2 0l-1.7 1.2a14.3 14.3 0 0 1-5.7-5.7l1.2-1.7a1.8 1.8 0 0 0 0-2.2Z"></path>
+              </svg>
+            </a>
+            <a class="social-icon" href="mailto:zsy.1414@gmail.com" aria-label="ایمیل" data-aria-fa="ایمیل" data-aria-en="Email" title="Email">
+              <svg viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M4 4a2 2 0 0 0-2 2v.6l10 6.7 10-6.7V6a2 2 0 0 0-2-2Zm18 4.9-9.4 6.3a1.1 1.1 0 0 1-1.2 0L2 8.9V18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2Z"></path>
+              </svg>
+            </a>
+            <a class="social-icon" href="https://github.com/zsyh8080-dotcom/" target="_blank" rel="noopener noreferrer" aria-label="گیت‌هاب" data-aria-fa="گیت‌هاب" data-aria-en="GitHub" title="GitHub">
+              <svg viewbox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .7a11.5 11.5 0 0 0-3.6 22.4c.6.1.8-.2.8-.6v-2.2c-3.3.7-4-1.4-4-1.4-.5-1.4-1.3-1.7-1.3-1.7-1.1-.8.1-.8.1-.8 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.7 1.3 3.4 1 .1-.8.4-1.3.7-1.6-2.6-.3-5.4-1.3-5.4-5.7 0-1.2.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.1 11.1 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.8.8 1.2 1.9 1.2 3.1 0 4.4-2.8 5.4-5.4 5.7.4.4.8 1.1.8 2.1v3.4c0 .4.2.7.8.6A11.5 11.5 0 0 0 12 .7Z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </aside>
+      <div class="portfolio-content">
+        <main id="main" tabindex="-1">
+          <section class="hero section" id="home" aria-labelledby="hero-title">
+            <div class="hero-grid shell">
+              <div class="hero-content">
+                <div class="status-badge hero-step fx-availability">
+                  <span class="status-dot"></span>
+                  <span data-i18n="hero.status">آماده برای همکاری</span>
+                </div>
+                <p class="eyebrow hero-step" data-i18n="hero.greeting">سلام، من</p>
+                <h1 id="hero-title" class="hero-name hero-step">
+                  <span data-en="Zahrasadat" data-fa="زهراسادات">زهراسادات</span>
+                  <br>
+                  <span>Yaghoubi Hashjin</span>
+                </h1>
+                <div class="typewriter-wrap hero-step">
+                  <span class="sr-only" data-i18n="hero.roleLabel">زمینهٔ فعالیتم:</span>
+                  <span id="typed-role">
+                    <span data-en="Python Developer" data-fa="برنامه‌نویس پایتون">برنامه‌نویس پایتون</span>
+                  </span>
+                </div>
+                <p class="hero-description hero-step" data-i18n="hero.description">دانشجوی هوش مصنوعی و رباتیکم. دوست دارم ایده‌ها رو با کد امتحان کنم و ازشون چیزی بسازم که به کار بیاد.</p>
+                <div class="hero-actions hero-step">
+                  <a class="button primary fx-sweep" href="#projects">
+                    <span data-i18n="hero.projects">مشاهده پروژه‌ها</span>
+                    <span aria-hidden="true">↘</span>
+                  </a>
+                  <a class="button secondary resume-button resume-download-button" href="assets/Zahrasadat-Yaghoubi-Resume.pdf" download>
+                    <span class="resume-download-label" data-i18n="hero.resume">دانلود رزومه</span>
+                    <span class="resume-download-icon" aria-hidden="true">
+                      <svg viewBox="0 0 24 24">
+                        <path d="M12 3v11m-4-4 4 4 4-4M5 16v4h14v-4"></path>
+                      </svg>
+                    </span>
+                  </a>
+                  <a class="button ghost fx-sweep" href="https://github.com/zsyh8080-dotcom/" target="_blank" rel="noopener">GitHub ↗</a>
+                </div>
+              </div>
+              <div class="hero-visual neural-stage hero-step" aria-label="نمای تعاملی شبکه عصبی" data-aria-en="Interactive neural network visualization" data-aria-fa="نمای تعاملی شبکه عصبی">
+                <canvas id="matrix-canvas" aria-hidden="true"></canvas>
+                <div class="network-labels" dir="ltr">
+                  <span class="node-label node-llm">LLM</span>
+                  <span class="node-label node-rag">RAG</span>
+                  <span class="node-label node-cv">Computer Vision</span>
+                  <span class="node-label node-data">Data</span>
+                  <span class="node-label node-ml">ML</span>
+                  <span class="node-label node-nlp">NLP</span>
+                </div>
+                <canvas id="neural-canvas" role="img" tabindex="0" aria-label="شبکهٔ هوش مصنوعی؛ برای دیدن نودهای اصلی از کلیدهای جهت استفاده کنید" data-aria-fa="شبکهٔ هوش مصنوعی؛ برای دیدن نودهای اصلی از کلیدهای جهت استفاده کنید" data-aria-en="AI network; use arrow keys to explore the main nodes"></canvas>
+                <span id="neural-tooltip" class="neural-tooltip" role="tooltip" hidden></span>
+              </div>
+            </div>
+          </section>
+          <section class="stack-strip" id="stack" aria-label="Technology stack" data-aria-fa="ابزارهایی که باهاشون کار می‌کنم" data-aria-en="Tools I work with">
+            <div class="stack-marquee">
+              <div class="marquee-track">
+                <div class="marquee-group">
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">PY</i>Python</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">JA</i>JavaScript</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">FA</i>FastAPI</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">OP</i>OpenCV</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">NU</i>NumPy</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">PA</i>Pandas</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">CN</i>CNN</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">LS</i>LSTM</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">MY</i>MySQL</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">FI</i>Figma</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">WO</i>WordPress</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">GI</i>Git</span>
+                </div>
+                <div class="marquee-group" aria-hidden="true">
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">PY</i>Python</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">JA</i>JavaScript</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">FA</i>FastAPI</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">OP</i>OpenCV</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">NU</i>NumPy</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">PA</i>Pandas</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">CN</i>CNN</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">LS</i>LSTM</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">MY</i>MySQL</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">FI</i>Figma</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">WO</i>WordPress</span>
+                  <span class="marquee-tool">
+                    <i aria-hidden="true">GI</i>Git</span>
+                </div>
+              </div>
+            </div>
+            <button class="motion-toggle" id="motion-toggle" type="button" aria-pressed="false" aria-label="Pause animations">Ⅱ</button>
+          </section>
+          <section class="section" id="about" aria-labelledby="about-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>01 / <span data-i18n="nav.about">درباره من</span>
+                </p>
+                <h2 id="about-title" data-i18n="about.title" data-highlight-heading="">کنجکاو برای یاد گرفتن؛ مشتاق برای ساختن.</h2>
+                <span class="heading-line"></span>
+              </header>
+              <div class="about-grid">
+                <article class="about-lead glass reveal glass-shine">
+                  <p class="large-copy" data-i18n="about.lead">مسیرم از مهندسی نرم‌افزار و ساختن وب‌سایت شروع شد. حالا بیشتر از همه دوست دارم این تجربه رو به هوش مصنوعی وصل کنم؛ از فهمیدن داده‌ها و کار با تصویر گرفته تا تبدیل یک ایده به چیزی که بشه ازش استفاده کرد.</p>
+                  <div class="availability">
+                    <span class="status-dot"></span>
+                    <span data-i18n="about.location">تهران، ایران</span>
+                  </div>
+                </article>
+                <div class="about-panels">
+                  <article class="info-card reveal glass-shine">
+                    <span class="card-index">A</span>
+                    <h3 data-i18n="about.whoTitle">کمی دربارهٔ من</h3>
+                    <p data-i18n="about.who">کارشناسی نرم‌افزار خوندم و الان دانشجوی ارشد هوش مصنوعی و رباتیکم.</p>
+                  </article>
+                  <article class="info-card reveal glass-shine">
+                    <span class="card-index">B</span>
+                    <h3 data-i18n="about.buildTitle">چه می‌سازم</h3>
+                    <p data-i18n="about.build">از فروشگاه کتاب دانشگاه تا مدل‌های پیش‌بینی، ربات‌های PDF و APIهای داده.</p>
+                  </article>
+                  <article class="info-card reveal glass-shine">
+                    <span class="card-index">C</span>
+                    <h3 data-i18n="about.focusTitle">تمرکز فعلی</h3>
+                    <p data-i18n="about.focus">موضوع پیشنهادی پایان‌نامه‌م تشخیص جعل چهره است؛ با کنار هم گذاشتن ویژگی‌های بصری، تحلیل سطح خطای بهبودیافته و مدل غنی فضایی.</p>
+                  </article>
+                  <article class="info-card reveal glass-shine">
+                    <span class="card-index">D</span>
+                    <h3 data-i18n="about.interestsTitle">علایق پژوهشی</h3>
+                    <p data-i18n="about.interests">بینایی ماشین، هوش مصنوعی مولد و این سؤال که چطور می‌شه به خروجی‌شون بیشتر اعتماد کرد.</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section muted-section" id="focus" aria-labelledby="focus-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>
+                  <span data-en="02 / AI FOCUS" data-fa="۰۲ / زمینه‌های هوش مصنوعی">۰۲ / زمینه‌های هوش مصنوعی</span>
+                </p>
+                <h2 id="focus-title" data-i18n="focus.title">چیزهایی که کار کردن روشون رو دوست دارم</h2>
+                <span class="heading-line"></span>
+              </header>
+              <div class="focus-grid">
+                <article class="focus-card glass reveal fx-border">
+                  <span>01</span>
+                  <h3>
+                    <span data-en="Computer Vision" data-fa="بینایی ماشین">بینایی ماشین</span>
+                  </h3>
+                  <p data-i18n="focus.cv">فهمیدن اینکه یک تصویر چی نشون می‌ده و پیدا کردن نشونه‌های کوچیکی که ممکنه از ویرایشش باقی مونده باشه.</p>
+                  <span class="fx-border-light" aria-hidden="true"></span>
+                </article>
+                <article class="focus-card glass reveal fx-border">
+                  <span>02</span>
+                  <h3>LLM · RAG</h3>
+                  <p data-i18n="focus.rag">دستیارهایی که اطلاعات مرتبط رو پیدا می‌کنن، منبع رو نشون می‌دن و وقتی جوابی ندارن، روشن می‌گن.</p>
+                  <span class="fx-border-light" aria-hidden="true"></span>
+                </article>
+                <article class="focus-card glass reveal fx-border">
+                  <span>03</span>
+                  <h3>
+                    <span data-en="AI Systems" data-fa="سیستم‌های هوشمند">سیستم‌های هوشمند</span>
+                  </h3>
+                  <p data-i18n="focus.systems">وصل کردن داده و مدل با API؛ طوری که ورودی و خروجی روشن باشه و بشه راحت باهاش کار کرد.</p>
+                  <span class="fx-border-light" aria-hidden="true"></span>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="projects" aria-labelledby="projects-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>03 / <span data-i18n="nav.projects">پروژه‌ها</span>
+                </p>
+                <h2 id="projects-title" data-i18n="projects.title" data-highlight-heading="">چیزهایی که ساختم و تجربه کردم.</h2>
+                <span class="heading-line"></span>
+              </header>
+              <div class="project-grid" id="featured-projects">
+                <article class="project-card featured glass reveal" data-project="image-forensics">
+                  <div class="project-visual forensic-visual" aria-label="نمای شماتیک تحلیل اصالت تصویر" data-aria-en="AI image forensics pipeline abstract visualization" data-aria-fa="نمای شماتیک تحلیل اصالت تصویر">
+                    <div class="scan-grid"></div>
+                    <span class="scan-line"></span>
+                    <div class="visual-label">ELA / CNN / FORENSICS</div>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>
+                        <span data-en="COMPUTER VISION" data-fa="بینایی ماشین">بینایی ماشین</span>
+                      </span>
+                      <span>
+                        <span data-en="RESEARCH" data-fa="پژوهش">پژوهش</span>
+                      </span>
+                    </div>
+                    <h3 data-i18n="project.forensics.title">تشخیص دستکاری تصویر</h3>
+                    <p data-i18n="project.forensics.desc">دارم تشخیص دستکاری تصویر با CNN و تحلیل سطح خطا رو بررسی می‌کنم؛ در کنار علاقه‌م به تشخیص تصاویر تولیدشده با هوش مصنوعی.</p>
+                    <ul class="chip-list">
+                      <li>Python</li>
+                      <li>CNN</li>
+                      <li>ELA</li>
+                      <li>OpenCV</li>
+                    </ul>
+                    <div class="project-links">
+                      <a href="research.html#forensics" data-i18n="projects.caseStudy">دربارهٔ این پروژه</a>
+                      <a href="https://B2n.ir/kq9918" target="_blank" rel="noopener">
+                        <span data-en="Project link ↗" data-fa="پیوند پروژه ↗">پیوند پروژه ↗</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+                <article class="project-card glass reveal" data-project="time-series">
+                  <div class="project-visual time-visual" aria-hidden="true">
+                    <svg preserveaspectratio="none" viewbox="0 0 600 240">
+                      <path d="M0 180 C70 175 90 55 150 95 S240 190 295 96 370 48 415 120 505 205 600 70"></path>
+                      <path class="ghost" d="M0 140 C80 100 120 190 190 140 S280 30 350 100 460 150 600 105"></path>
+                    </svg>
+                    <div class="visual-label">TIME SERIES / API</div>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>FASTAPI</span>
+                      <span>
+                        <span data-en="DATA" data-fa="داده">داده</span>
+                      </span>
+                    </div>
+                    <h3 data-i18n="project.timeseries.title">API سری زمانی چاه</h3>
+                    <p data-i18n="project.timeseries.desc">سرویسی با FastAPI برای دیدن داده‌های چاه بر اساس زمان و کلاس؛ با کش JSON، بررسی سلامت و آمار، و خلاصه‌های دقیقه‌ای، ساعتی یا روزانه.</p>
+                    <ul class="chip-list">
+                      <li>FastAPI</li>
+                      <li>Python</li>
+                      <li>
+                        <span data-en="Time Series" data-fa="سری زمانی">سری زمانی</span>
+                      </li>
+                      <li>JSON</li>
+                    </ul>
+                    <div class="project-links">
+                      <a href="projects.html#well-api" data-i18n="projects.caseStudy">دربارهٔ این پروژه</a>
+                      <a href="https://github.com/zsyhd/time-series" target="_blank" rel="noopener">GitHub ↗</a>
+                    </div>
+                  </div>
+                </article>
+                <article class="project-card glass reveal" data-project="heart">
+                  <div class="project-visual health-visual" aria-hidden="true">
+                    <div class="pulse"></div>
+                    <strong data-count="70000">70,000+</strong>
+                    <small>
+                      <span data-en="DATASET RECORDS" data-fa="رکورد مجموعه‌داده">رکورد مجموعه‌داده</span>
+                    </small>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>
+                        <span data-en="MACHINE LEARNING" data-fa="یادگیری ماشین">یادگیری ماشین</span>
+                      </span>
+                      <span>
+                        <span data-en="ACADEMIC" data-fa="دانشگاهی">دانشگاهی</span>
+                      </span>
+                    </div>
+                    <h3 data-i18n="project.heart.title">پیش‌بینی بیماری قلبی</h3>
+                    <p data-i18n="project.heart.desc">مدلی با Random Forest برای پیش‌بینی بیماری قلبی، بر پایهٔ بیش از ۷۰٬۰۰۰ رکورد سلامت و سبک زندگی.</p>
+                    <ul class="chip-list">
+                      <li>Python</li>
+                      <li>ML</li>
+                      <li>
+                        <span data-en="Classification" data-fa="طبقه‌بندی">طبقه‌بندی</span>
+                      </li>
+                      <li>
+                        <span data-en="70K+ rows" data-fa="بیش از ۷۰ هزار ردیف">بیش از ۷۰ هزار ردیف</span>
+                      </li>
+                    </ul>
+                    <div class="project-links">
+                      <a href="projects.html#heart-disease" data-i18n="projects.caseStudy">دربارهٔ این پروژه</a>
+                      <a href="https://B2n.ir/gx8343" target="_blank" rel="noopener">
+                        <span data-en="Resume project link ↗" data-fa="پیوند پروژه در رزومه ↗">پیوند پروژه در رزومه ↗</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+                <article class="project-card glass case-study" id="card-refah-books" data-category="Web">
+                  <div class="project-visual project-symbol" aria-hidden="true">
+                    <svg viewbox="0 0 240 130">
+                      <rect x="55" y="30" width="44" height="60" rx="5"></rect>
+                      <path d="M65 42h23M65 53h23M65 64h14M109 43h36v47h-36M48 98h108"></path>
+                    </svg>
+                    <div class="visual-label">PHP / BOOKS / COMMUNITY</div>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>
+                        <span data-en="Web" data-fa="وب">وب</span>
+                      </span>
+                      <span data-en="RESUME" data-fa="رزومه">رزومه</span>
+                    </div>
+                    <h3 data-en="Refah University Book Marketplace" data-fa="فروشگاه کتاب دانشگاه رفاه">فروشگاه کتاب دانشگاه رفاه</h3>
+                    <p data-en="A place for Refah students to list and exchange books and chat with each other. I built it as my undergraduate thesis project." data-fa="جایی برای دانشجوهای رفاه تا کتاب‌هاشون رو آگهی کنن، با هم مبادله کنن و گفت‌وگو داشته باشن. این پلتفرم رو برای پایان‌نامهٔ کارشناسی ساختم.">جایی برای دانشجوهای رفاه تا کتاب‌هاشون رو آگهی کنن، با هم مبادله کنن و گفت‌وگو داشته باشن. این پلتفرم رو برای پایان‌نامهٔ کارشناسی ساختم.</p>
+                    <div class="project-links">
+                      <a href="projects.html#refah-books">
+                        <span data-en="Case study ↗" data-fa="بررسی پروژه ↗">بررسی پروژه ↗</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+                <article class="project-card glass case-study" id="card-paper-translator" data-category="GenAI">
+                  <div class="project-visual project-symbol" aria-hidden="true">
+                    <svg viewbox="0 0 240 130">
+                      <path d="M47 24h40l14 15v67H47zM87 24v16h14M59 58h30M59 69h30M59 80h17M110 65h37m-8-8 8 8-8 8"></path>
+                      <rect x="156" y="42" width="36" height="52" rx="4"></rect>
+                    </svg>
+                    <div class="visual-label">PDF / GEMINI / WORD</div>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>GenAI</span>
+                      <span data-en="RESUME" data-fa="رزومه">رزومه</span>
+                    </div>
+                    <h3 data-en="Research Paper Translation Bot" data-fa="ربات ترجمه مقاله">ربات ترجمه مقاله</h3>
+                    <p data-en="Give the bot a paper in PDF format, and it uses Gemini to return a Persian translation in a Word file." data-fa="مقاله رو به‌صورت PDF به ربات می‌دی؛ با کمک Gemini ترجمهٔ فارسی رو آماده می‌کنه و در یک فایل Word تحویلت می‌ده.">مقاله رو به‌صورت PDF به ربات می‌دی؛ با کمک Gemini ترجمهٔ فارسی رو آماده می‌کنه و در یک فایل Word تحویلت می‌ده.</p>
+                    <div class="project-links">
+                      <a href="projects.html#paper-translator">
+                        <span data-en="Case study ↗" data-fa="بررسی پروژه ↗">بررسی پروژه ↗</span>
+                      </a>
+                    </div>
+                  </div>
+                </article>
+                <article class="project-card glass case-study" id="card-telegram-quiz" data-category="GenAI">
+                  <div class="project-visual project-symbol" aria-hidden="true">
+                    <svg viewbox="0 0 240 130">
+                      <rect x="68" y="18" width="82" height="94" rx="10"></rect>
+                      <path d="M83 41h46M83 57h46M83 73h30M88 90l6 6 12-13"></path>
+                    </svg>
+                    <div class="visual-label">TELEGRAM / PDF / QUIZ</div>
+                  </div>
+                  <div class="project-body">
+                    <div class="project-meta">
+                      <span>GenAI</span>
+                      <span data-en="RESUME" data-fa="رزومه">رزومه</span>
+                    </div>
+                    <h3 data-en="Telegram Quiz Bot" data-fa="ربات آزمون‌گیر تلگرام">ربات آزمون‌گیر تلگرام</h3>
+                    <p data-en="A Telegram bot that turns PDF content into multiple-choice questions to help with studying." data-fa="یک ربات تلگرام که محتوای PDF رو به سؤال‌های چهارگزینه‌ای تبدیل می‌کنه تا مرور و مطالعه راحت‌تر بشه.">یک ربات تلگرام که محتوای PDF رو به سؤال‌های چهارگزینه‌ای تبدیل می‌کنه تا مرور و مطالعه راحت‌تر بشه.</p>
+                    <div class="project-links">
+                      <a href="projects.html#telegram-quiz">
+                        <span data-en="Case study ↗" data-fa="بررسی پروژه ↗">بررسی پروژه ↗</span>
+                      </a>
+                      <a href="https://b2n.ir/mf6602" target="_blank" rel="noopener" data-en="Project link ↗" data-fa="پیوند پروژه ↗">پیوند پروژه ↗</a>
+                    </div>
+                  </div>
+                </article>
+              </div>
+              <div class="all-projects-action reveal">
+                <a class="button all-projects-button fx-sweep" href="projects.html">
+                  <span class="" data-fa="همهٔ پروژه‌ها رو ببین" data-en="Explore all projects">همهٔ پروژه‌ها رو ببین</span>
+                  <span class="project-button-arrow" aria-hidden="true">↗</span>
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="section research-section" id="research" aria-labelledby="research-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>04 / RESEARCH</p>
+                <h2 data-en="Can we trust this image?" data-fa="می‌شه به این تصویر اعتماد کرد؟" id="research-title">می‌شه به این تصویر اعتماد کرد؟</h2>
+              </header>
+              <div class="research-workbench glass reveal">
+                <div class="research-story">
+                  <span class="eyebrow">CNN × ELA</span>
+                  <h3 data-en="Can we spot a deepfake after compression?" data-fa="بعد از فشرده‌سازی هم می‌شه جعل چهره رو تشخیص داد؟">بعد از فشرده‌سازی هم می‌شه جعل چهره رو تشخیص داد؟</h3>
+                  <p data-en="That’s the question behind my thesis proposal. I’m planning a two-stream model: one reads the face’s visual features, and the other looks for noise and compression traces with enhanced ELA and SRM." data-fa="این سؤال، نقطهٔ شروع طرح پایان‌نامه‌مه. قرار است یک مدل دوجریانی بسازم: یک مسیر ویژگی‌های ظاهری چهره رو می‌خونه و مسیر دیگر، با ELA بهبودیافته و SRM دنبال ردپاهای نویز و فشرده‌سازی می‌گرده.">این سؤال، نقطهٔ شروع طرح پایان‌نامه‌مه. قرار است یک مدل دوجریانی بسازم: یک مسیر ویژگی‌های ظاهری چهره رو می‌خونه و مسیر دیگر، با ELA بهبودیافته و SRM دنبال ردپاهای نویز و فشرده‌سازی می‌گرده.</p>
+                  <div class="research-methods">
+                    <span dir="ltr">Dual-stream CNN</span>
+                    <span dir="ltr">MELA</span>
+                    <span dir="ltr">SRM</span>
+                    <span dir="ltr">Attention</span>
+                  </div>
+                  <a class="button secondary fx-sweep" href="research.html#forensics">
+                    <span data-en="A closer look" data-fa="بیشتر دربارهٔ این پژوهش">بیشتر دربارهٔ این پژوهش</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                </div>
+                <div class="research-diagram">
+                  <svg role="img" aria-label="در معماری پیشنهادی، جریان‌های RGB و MELA/SRM با توجه ادغام می‌شوند" data-aria-en="Proposed RGB and MELA/SRM streams merge through attention" data-aria-fa="در معماری پیشنهادی، جریان‌های RGB و MELA/SRM با توجه ادغام می‌شوند" viewbox="0 0 540 310">
+                    <g fill="none" stroke="currentColor" stroke-width="1.5">
+                      <rect x="22" y="118" width="66" height="74" rx="16"></rect>
+                      <ellipse cx="55" cy="144" rx="12" ry="14"></ellipse>
+                      <path d="M34 179Q55 158 76 179"></path>
+                      <path class="signal-path" d="M88 155H117V72H172M117 155V240H172M290 72H350V155H392M290 240H350V155M436 155H492"></path>
+                      <rect x="172" y="30" width="118" height="84" rx="16" fill="currentColor" fill-opacity=".025"></rect>
+                      <rect x="185" y="43" width="48" height="42" rx="6"></rect>
+                      <path d="m188 78 14-16 11 8 11-14 7 10M244 49h32M244 61h25M244 73h29M186 98h90"></path>
+                      <rect x="172" y="198" width="118" height="84" rx="16" fill="#a99cff" fill-opacity=".04" stroke="#a99cff"></rect>
+                      <g stroke="#a99cff">
+                        <path d="M187 212h90v54h-90zM187 230h90M187 248h90M205 212v54M223 212v54M241 212v54M259 212v54"></path>
+                        <path d="M194 220h5M230 237h5M265 257h5M212 257h5M248 220h5" stroke-width="5"></path>
+                      </g>
+                      <circle class="output-ring" cx="414" cy="155" r="23"></circle>
+                      <path d="m402 155 8 8 16-16"></path>
+                      <circle cx="502" cy="155" r="10"></circle>
+                      <circle cx="502" cy="155" r="22" opacity=".3"></circle>
+                    </g>
+                  </svg>
+                  <div class="diagram-legend">
+                    <span>RGB</span>
+                    <span>MELA + SRM</span>
+                    <span>ATTENTION</span>
+                  </div>
+                  <p class="diagram-note" data-en="Proposed architecture; measured results are not available yet." data-fa="معماری پیشنهادی؛ نتایج اندازه‌گیری‌شده هنوز موجود نیست.">معماری پیشنهادی؛ نتایج اندازه‌گیری‌شده هنوز موجود نیست.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section architecture-section" id="architecture" aria-labelledby="architecture-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>05 / SYSTEM DESIGN</p>
+                <h2 data-en="From an idea to a working system." data-fa="از ایده تا سیستمی که کار می‌کنه." id="architecture-title">از ایده تا سیستمی که کار می‌کنه.</h2>
+                <p data-en="I like understanding what happens between the input and the answer." data-fa="دوست دارم بدونم بین ورودی و جواب، دقیقاً چه اتفاقی می‌افته.">دوست دارم بدونم بین ورودی و جواب، دقیقاً چه اتفاقی می‌افته.</p>
+              </header>
+              <div class="architecture-board glass reveal">
+                <div class="architecture-toolbar">
+                  <div class="architecture-tabs" role="tablist" aria-label="System architectures">
+                    <button class="arch-tab active" role="tab" aria-selected="true" data-arch="rag">RAG</button>
+                    <button class="arch-tab" role="tab" aria-selected="false" data-arch="agent">AGENT</button>
+                    <button class="arch-tab" role="tab" aria-selected="false" data-arch="vision">VISION</button>
+                  </div>
+                </div>
+                <div id="architecture-canvas" class="architecture-canvas">
+                  <div class="dag" data-dag="architecture"></div>
+                </div>
+                <div class="architecture-detail">
+                  <span class="detail-index" id="architecture-step">01</span>
+                  <div>
+                    <h3 id="architecture-detail-title"></h3>
+                    <p id="architecture-detail-copy"></p>
+                  </div>
+                  <button type="button" class="icon-button" id="architecture-replay" aria-label="Replay architecture">↻</button>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="experience" aria-labelledby="experience-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>06 / <span data-i18n="nav.experience">تجربه</span>
+                </p>
+                <h2 id="experience-title" data-i18n="experience.title" data-highlight-heading="">یاد گرفتن، با ساختن.</h2>
+                <span class="heading-line"></span>
+              </header>
+              <div class="timeline" id="experience-timeline">
+                <div class="timeline-progress" id="timeline-progress-line" aria-hidden="true"></div>
+                <article class="timeline-item reveal">
+                  <span class="timeline-dot"></span>
+                  <div class="timeline-date">2024 — <span data-i18n="common.present">اکنون</span>
+                  </div>
+                  <div class="timeline-content glass spotlight-card fx-border fx-border-continuous">
+                    <p class="kicker" data-i18n="experience.typeAcademic">دانشگاهی · پژوهشی</p>
+                    <h3 data-i18n="experience.msc">کارشناسی ارشد هوش مصنوعی و رباتیک</h3>
+                    <p class="muted" data-i18n="experience.mscPlace">دانشگاه جامع انقلاب اسلامی · تهران</p>
+                    <p data-i18n="experience.mscDesc">طرح پایان‌نامه‌م روی تشخیص جعل چهره متمرکزه؛ ترکیب ویژگی‌های RGB با ELA بهبودیافته و SRM، و بررسی اینکه مدل با تصویرهای فشرده چطور کنار میاد.</p>
+                    <div class="chip-list">
+                      <span>AI</span>
+                      <span data-en="Robotics" data-fa="رباتیک">رباتیک</span>
+                      <span data-en="Computer Vision" data-fa="بینایی ماشین">بینایی ماشین</span>
+                      <span data-en="Research" data-fa="پژوهش">پژوهش</span>
+                    </div>
+                    <span class="fx-border-light" aria-hidden="true"></span>
+                  </div>
+                </article>
+                <article class="timeline-item reveal">
+                  <span class="timeline-dot"></span>
+                  <div class="timeline-date">2019 — 2023</div>
+                  <div class="timeline-content glass spotlight-card fx-border fx-border-continuous">
+                    <p class="kicker" data-i18n="experience.typeEducation">تحصیل · پروژه‌ها</p>
+                    <h3 data-i18n="experience.bsc">کارشناسی مهندسی کامپیوتر — نرم‌افزار</h3>
+                    <p class="muted" data-i18n="experience.bscPlace">دانشگاه رفاه · تهران</p>
+                    <p data-i18n="experience.bscDesc">اینجا پایه‌های نرم‌افزار رو یاد گرفتم و برای دانشجوهای دانشگاه، پلتفرم مبادلهٔ کتاب ساختم.</p>
+                    <div class="chip-list">
+                      <span data-en="Software Engineering" data-fa="مهندسی نرم‌افزار">مهندسی نرم‌افزار</span>
+                      <span>Python</span>
+                      <span data-en="Machine Learning" data-fa="یادگیری ماشین">یادگیری ماشین</span>
+                    </div>
+                    <span class="fx-border-light" aria-hidden="true"></span>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section" id="skills" aria-labelledby="skills-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>07 / TOOLBOX</p>
+                <h2 data-en="The tools I work with." data-fa="ابزارهایی که باهاشون کار می‌کنم." id="skills-title" data-highlight-heading="">ابزارهایی که باهاشون کار می‌کنم.</h2>
+              </header>
+              <div class="skill-filters">
+                <button type="button" class="skill-filter active" data-skill-filter="all" aria-pressed="true">
+                  <span data-en="All tools" data-fa="همهٔ ابزارها">همهٔ ابزارها</span>
+                </button>
+                <button type="button" class="skill-filter" data-skill-filter="code" aria-pressed="false">
+                  <span data-en="Code &amp; web" data-fa="کدنویسی و وب">کدنویسی و وب</span>
+                </button>
+                <button type="button" class="skill-filter" data-skill-filter="data" aria-pressed="false">
+                  <span data-en="Data &amp; AI" data-fa="داده و هوش مصنوعی">داده و هوش مصنوعی</span>
+                </button>
+                <button type="button" class="skill-filter" data-skill-filter="design" aria-pressed="false">
+                  <span data-en="Design &amp; daily tools" data-fa="طراحی و ابزارهای روزمره">طراحی و ابزارهای روزمره</span>
+                </button>
+                <button type="button" class="skill-filter" data-skill-filter="portfolio" aria-pressed="false">
+                  <span data-en="AI assistants &amp; retrieval" data-fa="دستیارهای هوشمند و بازیابی">دستیارهای هوشمند و بازیابی</span>
+                </button>
+              </div>
+              <div class="tech-grid">
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">Py</span>
+                  <span class="tech-name" dir="ltr">Python</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">JS</span>
+                  <span class="tech-name" dir="ltr">JavaScript</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">&lt;&gt;</span>
+                  <span class="tech-name" dir="ltr">HTML</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">#</span>
+                  <span class="tech-name" dir="ltr">CSS</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">jQ</span>
+                  <span class="tech-name" dir="ltr">jQuery</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">B</span>
+                  <span class="tech-name" dir="ltr">Bootstrap</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">W</span>
+                  <span class="tech-name" dir="ltr">WordPress</span>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">php</span>
+                  <span class="tech-name" dir="ltr">PHP</span>
+                  <small data-en="Familiar" data-fa="آشنا">آشنا</small>
+                </div>
+                <div class="tech-item" data-skill-category="code" style="--tool-hue:165">
+                  <span class="tech-icon" aria-hidden="true">C</span>
+                  <span class="tech-name" dir="ltr">C</span>
+                  <small data-en="Familiar" data-fa="آشنا">آشنا</small>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">my</span>
+                  <span class="tech-name" dir="ltr">MySQL</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">SQL</span>
+                  <span class="tech-name" dir="ltr">SQL</span>
+                  <small data-en="Familiar" data-fa="آشنا">آشنا</small>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">MS</span>
+                  <span class="tech-name" dir="ltr">Microsoft SQL Server</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">Np</span>
+                  <span class="tech-name" dir="ltr">NumPy</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">Pd</span>
+                  <span class="tech-name" dir="ltr">Pandas</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">RF</span>
+                  <span class="tech-name" dir="ltr">Random Forest</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">DT</span>
+                  <span class="tech-name" dir="ltr">Decision Tree</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">CNN</span>
+                  <span class="tech-name" dir="ltr">CNN</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">ELA</span>
+                  <span class="tech-name" dir="ltr">ELA</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">LSTM</span>
+                  <span class="tech-name" dir="ltr">LSTM</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">CV</span>
+                  <span class="tech-name" dir="ltr">OpenCV</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">✧</span>
+                  <span class="tech-name" dir="ltr">Gemini</span>
+                </div>
+                <div class="tech-item" data-skill-category="data" style="--tool-hue:250">
+                  <span class="tech-icon" aria-hidden="true">⚡</span>
+                  <span class="tech-name" dir="ltr">FastAPI</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Fi</span>
+                  <span class="tech-name" dir="ltr">Figma</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Ca</span>
+                  <span class="tech-name" dir="ltr">Canva</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Ps</span>
+                  <span class="tech-name" dir="ltr">Photoshop</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Of</span>
+                  <span class="tech-name" dir="ltr">Microsoft Office</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Ln</span>
+                  <span class="tech-name" dir="ltr">Linux</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">Ci</span>
+                  <span class="tech-name" dir="ltr">Cisco</span>
+                </div>
+                <div class="tech-item" data-skill-category="design" style="--tool-hue:35">
+                  <span class="tech-icon" aria-hidden="true">git</span>
+                  <span class="tech-name" dir="ltr">Git</span>
+                </div>
+                <div class="tech-item" data-skill-category="portfolio" style="--tool-hue:190">
+                  <span class="tech-icon" aria-hidden="true">LG</span>
+                  <span class="tech-name" dir="ltr">LangGraph</span>
+                </div>
+                <div class="tech-item" data-skill-category="portfolio" style="--tool-hue:190">
+                  <span class="tech-icon" aria-hidden="true">Fs</span>
+                  <span class="tech-name" dir="ltr">FAISS</span>
+                </div>
+                <div class="tech-item" data-skill-category="portfolio" style="--tool-hue:190">
+                  <span class="tech-icon" aria-hidden="true">Gq</span>
+                  <span class="tech-name" dir="ltr">Groq</span>
+                </div>
+                <div class="tech-item" data-skill-category="portfolio" style="--tool-hue:190">
+                  <span class="tech-icon" aria-hidden="true">Gs</span>
+                  <span class="tech-name" dir="ltr">GSAP</span>
+                </div>
+                <div class="tech-item" data-skill-category="portfolio" style="--tool-hue:190">
+                  <span class="tech-icon" aria-hidden="true">HF</span>
+                  <span class="tech-name" dir="ltr">HuggingFace</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="section education-section" id="education" aria-labelledby="education-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>
+                  <span data-en="09 / EDUCATION" data-fa="۰۹ / تحصیلات">۰۹ / تحصیلات</span>
+                </p>
+                <h2 id="education-title" data-i18n="education.title">مسیر تحصیلی</h2>
+                <span class="heading-line"></span>
+              </header>
+              <div class="education-grid">
+                <article class="education-card glass reveal">
+                  <div class="degree-year">2024—<span data-i18n="common.now">اکنون</span>
+                  </div>
+                  <p>
+                    <span data-en="M.Sc." data-fa="کارشناسی ارشد">کارشناسی ارشد</span>
+                  </p>
+                  <h3 data-i18n="education.msc">هوش مصنوعی و رباتیک</h3>
+                  <span data-i18n="education.mscUni">دانشگاه جامع انقلاب اسلامی</span>
+                </article>
+                <article class="education-card glass reveal">
+                  <div class="degree-year">2019—2023</div>
+                  <p>
+                    <span data-en="B.Sc." data-fa="کارشناسی">کارشناسی</span>
+                  </p>
+                  <h3 data-i18n="education.bsc">مهندسی کامپیوتر — نرم‌افزار</h3>
+                  <span data-i18n="education.bscUni">دانشگاه رفاه</span>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section certifications-section" id="certifications" aria-labelledby="certifications-title">
+            <div class="shell">
+              <header class="section-heading reveal">
+                <p>09 / CONTINUOUS LEARNING</p>
+                <h2 data-en="Course certificates" data-fa="مدارک دوره‌ها" id="certifications-title">مدارک دوره‌ها</h2>
+              </header>
+              <div class="credentials-grid">
+                <article class="credential-card" data-certificate="php-sql">
+                  <div class="credential-frame">
+                    <button type="button" class="credential-image-button" data-certificate-image="assets/certificates/php-sql.webp" data-title="توسعهٔ PHP" data-title-en="PHP Developing Expert" data-title-fa="توسعهٔ PHP" data-original="assets/certificates/php-sql.webp" aria-label="بزرگ‌نمایی مدرک توسعهٔ PHP" data-aria-fa="بزرگ‌نمایی مدرک توسعهٔ PHP" data-aria-en="Enlarge PHP Developing Expert certificate">
+                      <img src="assets/certificates/php-sql.webp" alt="PHP Developing Expert — Zahrasadat Yaghoubi" width="1280" height="876" loading="lazy" decoding="async">
+                    </button>
+                  </div>
+                  <a class="credential-link" href="assets/certificates/php-sql.webp" target="_blank" rel="noopener">
+                    <span data-en="PHP Developing Expert" data-fa="توسعهٔ PHP">توسعهٔ PHP</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <p class="certificate-caption" data-en="Tosinso" data-fa="توسینسو">توسینسو</p>
+                  <p class="certificate-caption certificate-date" data-en="2024-02-25" data-fa="۶ اسفند ۱۴۰۲">۶ اسفند ۱۴۰۲</p>
+                </article>
+                <article class="credential-card" data-certificate="wordpress">
+                  <div class="credential-frame">
+                    <button type="button" class="credential-image-button" data-certificate-image="assets/certificates/wordpress.webp" data-title="طراحی سایت با وردپرس" data-title-en="Website design with WordPress" data-title-fa="طراحی سایت با وردپرس" data-original="assets/certificates/wordpress.pdf" aria-label="بزرگ‌نمایی مدرک طراحی سایت با وردپرس" data-aria-fa="بزرگ‌نمایی مدرک طراحی سایت با وردپرس" data-aria-en="Enlarge Website design with WordPress certificate">
+                      <img src="assets/certificates/wordpress.webp" alt="Website design with WordPress — Zahrasadat Yaghoubi" width="1500" height="1061" loading="lazy" decoding="async">
+                    </button>
+                  </div>
+                  <a class="credential-link" href="assets/certificates/wordpress.pdf" target="_blank" rel="noopener">
+                    <span data-en="Website design with WordPress" data-fa="طراحی سایت با وردپرس">طراحی سایت با وردپرس</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <p class="certificate-caption" data-en="Shahid Beheshti University" data-fa="دانشگاه شهید بهشتی">دانشگاه شهید بهشتی</p>
+                  <p class="certificate-caption certificate-date" data-en="Feb–Mar 2024 · 17 hours" data-fa="بهمن و اسفند ۱۴۰۲ · ۱۷ ساعت">بهمن و اسفند ۱۴۰۲ · ۱۷ ساعت</p>
+                </article>
+                <article class="credential-card" data-certificate="web-seo">
+                  <div class="credential-frame">
+                    <button type="button" class="credential-image-button" data-certificate-image="assets/certificates/web-seo.webp" data-title="طراحی وب و سئو" data-title-en="Web Design and SEO" data-title-fa="طراحی وب و سئو" data-original="assets/certificates/web-seo.pdf" aria-label="بزرگ‌نمایی مدرک طراحی وب و سئو" data-aria-fa="بزرگ‌نمایی مدرک طراحی وب و سئو" data-aria-en="Enlarge Web Design and SEO certificate">
+                      <img src="assets/certificates/web-seo.webp" alt="Web Design and SEO — Zahrasadat Yaghoubi" width="1060" height="1500" loading="lazy" decoding="async">
+                    </button>
+                  </div>
+                  <a class="credential-link" href="assets/certificates/web-seo.pdf" target="_blank" rel="noopener">
+                    <span data-en="Web Design and SEO" data-fa="طراحی وب و سئو">طراحی وب و سئو</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <p class="certificate-caption" data-en="OxfordCert Universal Academy" data-fa="OxfordCert Universal Academy">OxfordCert Universal Academy</p>
+                  <p class="certificate-caption certificate-date" data-en="Apr–Jun 2024 · 30 hours" data-fa="فروردین تا تیر ۱۴۰۳ · ۳۰ ساعت">فروردین تا تیر ۱۴۰۳ · ۳۰ ساعت</p>
+                </article>
+                <article class="credential-card" data-certificate="icdl">
+                  <div class="credential-frame">
+                    <button type="button" class="credential-image-button" data-certificate-image="assets/certificates/icdl.webp" data-title="مهارت‌های هفت‌گانهٔ ICDL" data-title-en="ICDL: seven digital skills" data-title-fa="مهارت‌های هفت‌گانهٔ ICDL" data-original="assets/certificates/icdl.pdf" aria-label="بزرگ‌نمایی مدرک مهارت‌های هفت‌گانهٔ ICDL" data-aria-fa="بزرگ‌نمایی مدرک مهارت‌های هفت‌گانهٔ ICDL" data-aria-en="Enlarge ICDL: seven digital skills certificate">
+                      <img src="assets/certificates/icdl.webp" alt="ICDL: seven digital skills — Zahrasadat Yaghoubi" width="1500" height="1061" loading="lazy" decoding="async">
+                    </button>
+                  </div>
+                  <a class="credential-link" href="assets/certificates/icdl.pdf" target="_blank" rel="noopener">
+                    <span data-en="ICDL: seven digital skills" data-fa="مهارت‌های هفت‌گانهٔ ICDL">مهارت‌های هفت‌گانهٔ ICDL</span>
+                    <span aria-hidden="true">↗</span>
+                  </a>
+                  <p class="certificate-caption" data-en="Modiran Asr Fara Andisheh" data-fa="مدیران عصر فرا اندیشه">مدیران عصر فرا اندیشه</p>
+                  <p class="certificate-caption certificate-date" data-en="June 2024 · 130 hours" data-fa="تیر ۱۴۰۳ · ۱۳۰ ساعت">تیر ۱۴۰۳ · ۱۳۰ ساعت</p>
+                </article>
+              </div>
+            </div>
+          </section>
+          <section class="section contact-section" id="contact" aria-labelledby="contact-title">
+            <div class="shell contact-grid">
+              <div>
+                <header class="section-heading reveal">
+                  <p>11 / <span data-i18n="nav.contact">ارتباط</span>
+                  </p>
+                  <h2 id="contact-title" data-i18n="contact.title">ایده‌ای توی ذهنت هست؟</h2>
+                  <span class="heading-line"></span>
+                </header>
+                <p class="contact-copy reveal" data-i18n="contact.copy">پروژه، سؤال پژوهشی یا یک ایدهٔ خوب؛ خوشحال می‌شم درباره‌ش حرف بزنیم.</p>
+              </div>
+              <div class="contact-actions reveal">
+                <a class="contact-link" href="mailto:zsy.1414@gmail.com">
+                  <svg viewbox="0 0 24 24" aria-hidden="true">
+                    <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                    <path d="m4 7 8 6 8-6"></path>
+                  </svg>
+                  <span data-i18n="contact.email">ایمیل</span>
+                  <strong>zsy.1414@gmail.com</strong>
+                  <i>↗</i>
+                </a>
+                <a class="contact-link" href="https://github.com/zsyh8080-dotcom/" target="_blank" rel="noopener">
+                  <svg viewbox="0 0 24 24" aria-hidden="true">
+                    <path d="M9 19c-4.5 1.3-4.5-2.2-6-2.7m12 5v-3.9c0-1.1-.4-1.8-.8-2.2 2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.7 2.3 5.7 2.6 5.7 2.6a4.3 4.3 0 0 0-.1 3.3 4.7 4.7 0 0 0-1.3 3.3c0 4.7 2.9 5.7 5.6 6-.4.4-.8 1.1-.8 2.2v3.9"></path>
+                  </svg>
+                  <span data-en="GitHub · current account" data-fa="گیت‌هاب اصلی">گیت‌هاب اصلی</span>
+                  <strong>@zsyh8080-dotcom</strong>
+                  <i aria-hidden="true">↗</i>
+                </a>
+                <a class="contact-link" href="https://github.com/zsyhd" target="_blank" rel="noopener">
+                  <svg viewbox="0 0 24 24" aria-hidden="true">
+                    <path d="M9 19c-4.5 1.3-4.5-2.2-6-2.7m12 5v-3.9c0-1.1-.4-1.8-.8-2.2 2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.7 2.3 5.7 2.6 5.7 2.6a4.3 4.3 0 0 0-.1 3.3 4.7 4.7 0 0 0-1.3 3.3c0 4.7 2.9 5.7 5.6 6-.4.4-.8 1.1-.8 2.2v3.9"></path>
+                  </svg>
+                  <span data-en="GitHub · previous account" data-fa="گیت‌هاب">گیت‌هاب</span>
+                  <strong>@zsyhd <small class="profile-tag" data-en="Old" data-fa="قدیمی">قدیمی</small>
+                  </strong>
+                  <i aria-hidden="true">↗</i>
+                </a>
+              </div>
+            </div>
+          </section>
+        </main>
+        <footer class="site-footer fx-footer">
+          <div class="shell footer-grid">
+            <a class="brand" href="index.html#home">
+              <span class="brand-mark" aria-hidden="true">ZY</span>
+              <span class="footer-name" data-en="Zahrasadat Yaghoubi Hashjin" data-fa="زهراسادات یعقوبی هشجین">زهراسادات یعقوبی هشجین</span>
+            </a>
+            <div class="footer-links">
+              <a href="projects.html" data-en="Projects" data-fa="پروژه‌ها">پروژه‌ها</a>
+              <a href="research.html" data-en="Research" data-fa="پژوهش">پژوهش</a>
+              <a href="https://github.com/zsyh8080-dotcom/" data-en="GitHub" data-fa="گیت‌هاب" target="_blank" rel="noopener">گیت‌هاب<svg viewbox="0 0 24 24" aria-hidden="true">
+                  <path d="M9 19c-4.5 1.3-4.5-2.2-6-2.7m12 5v-3.9c0-1.1-.4-1.8-.8-2.2 2.7-.3 5.6-1.3 5.6-6a4.7 4.7 0 0 0-1.3-3.3 4.3 4.3 0 0 0-.1-3.3s-1-.3-3.4 1.3a11.6 11.6 0 0 0-6 0C6.7 2.3 5.7 2.6 5.7 2.6a4.3 4.3 0 0 0-.1 3.3 4.7 4.7 0 0 0-1.3 3.3c0 4.7 2.9 5.7 5.6 6-.4.4-.8 1.1-.8 2.2v3.9"></path>
+                </svg>
+              </a>
+              <a href="mailto:zsy.1414@gmail.com" data-en="Email" data-fa="ایمیل">ایمیل<svg viewbox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="3"></rect>
+                  <path d="m4 7 8 6 8-6"></path>
+                </svg>
+              </a>
+              <a class="footer-linkedin" href="https://www.linkedin.com/in/zahra-yaghoubi-17691013a" target="_blank" rel="noopener" data-en="LinkedIn" data-fa="لینکدین">لینکدین<svg viewbox="0 0 24 24" aria-hidden="true">
+                  <rect x="3" y="3" width="18" height="18" rx="4"></rect>
+                  <path d="M7.5 10v7M11.5 17v-7m0 3a3 3 0 0 1 6 0v4"></path>
+                  <circle cx="7.5" cy="7" r=".65" fill="currentColor"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <section class="command-palette" id="command-palette" role="dialog" aria-modal="true" aria-labelledby="command-title" aria-hidden="true" inert>
+      <div class="command-backdrop" data-command-close></div>
+      <div class="command-box">
+        <header>
+          <span aria-hidden="true">⌘</span>
+          <label class="sr-only" id="command-title" for="command-input" data-i18n="command.title">فهرست فرمان‌ها</label>
+          <input id="command-input" type="search" autocomplete="off" data-i18n-placeholder="command.placeholder" placeholder="جست‌وجو یا اجرای فرمان…">
+          <kbd>ESC</kbd>
+        </header>
+        <div class="command-results" id="command-results" role="listbox"></div>
+        <footer>
+          <span>
+            <kbd>↑↓</kbd>
+            <i data-i18n="command.navigate">حرکت</i>
+          </span>
+          <span>
+            <kbd>↵</kbd>
+            <i data-i18n="command.select">انتخاب</i>
+          </span>
+        </footer>
+      </div>
+    </section>
+    <script src="assets/vendor/typed.min.js"></script>
+    <script src="assets/vendor/gsap.min.js"></script>
+    <script type="module" src="js/app.js"></script>
+    <dialog id="certificate-modal" class="certificate-modal" aria-labelledby="certificate-title">
+      <header>
+        <h2 id="certificate-title"></h2>
+        <button type="button" class="icon-button" aria-label="بستن" data-aria-fa="بستن" data-aria-en="Close">×</button>
+      </header>
+      <img alt="">
+      <a href="assets/certificates/icdl.pdf" target="_blank" rel="noopener" data-en="Open original certificate ↗" data-fa="مشاهدهٔ فایل اصلی مدرک ↗">مشاهدهٔ فایل اصلی مدرک ↗</a>
+    </dialog>
+    <div class="page-scroll-control" role="scrollbar" tabindex="0" aria-controls="main" aria-label="موقعیت اسکرول صفحه" data-aria-fa="موقعیت اسکرول صفحه" data-aria-en="Page scroll position" aria-orientation="vertical" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+      <div class="page-scroll-track">
+        <span class="page-scroll-thumb"></span>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+        <i></i>
+      </div>
+    </div>
+    <button id="back-to-top" class="back-to-top" title="بازگشت به بالا" type="button" aria-label="بازگشت به بالا" data-aria-fa="بازگشت به بالا" data-aria-en="Back to top" hidden>
+      <svg class="top-orbit" viewbox="0 0 56 56" aria-hidden="true">
+        <circle cx="28" cy="28" r="25"></circle>
+        <circle cx="28" cy="28" r="20"></circle>
+        <path d="M28 37V18m-8 8 8-8 8 8"></path>
+      </svg>
+    </button>
+  </body>
+</html>

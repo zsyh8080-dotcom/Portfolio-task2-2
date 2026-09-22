@@ -1,0 +1,281 @@
+html[data-theme="light"] {
+  --bg: #f4f8fb;
+  --surface: #ffffff;
+  --text: #162c3b;
+  --muted: #4c6273;
+  --line: #cbd9e1;
+  --mint: #08735b;
+  --accent: #08735b;
+  --cyan: #086c8c;
+  --purple: #6943ae;
+  --shadow: 0 16px 44px #183d5012;
+  --fx-mint: #08735b;
+  --fx-violet: #6943ae;
+  --fx-scroll: #08735b;
+  --fx-sweep-a: #08654f;
+  --fx-sweep-b: #594098;
+  color-scheme: light;
+}
+
+html[data-theme="light"] body {
+  background: radial-gradient(ellipse at 28% 3%, #daf3ec80, transparent 40%), var(--bg);
+}
+
+html[data-theme="light"] .brand-mark {
+  color: var(--accent);
+  background: #e7f5ef;
+  border-color: #7ebaa6;
+  text-shadow: none;
+  box-shadow: inset 0 1px 0 #ffffff, 0 0 12px #08735b14;
+}
+
+html[data-theme="light"] .profile-sidebar {
+  background: linear-gradient(155deg, #eef8f4, #ffffff 50%, #f3faf8);
+  border-color: #a8cfc2;
+  box-shadow: var(--shadow);
+}
+
+html[data-theme="light"] .profile-sidebar .portrait-wrap {
+  background: #eaf0f4;
+  border-color: #8cb7ab;
+  box-shadow: none;
+}
+
+html[data-theme="light"] .profile-sidebar .profile-portrait {
+  background: #eaf0f4;
+}
+
+html[data-theme="light"] .portrait-status {
+  background: var(--accent);
+  border-color: #ffffff;
+  box-shadow: 0 0 0 3px #08735b20;
+}
+
+html[data-theme="light"] .portrait-scan {
+  background: linear-gradient(transparent, #08735b0a 75%, #08735b33);
+  border-color: #08735b66;
+}
+
+html[data-theme="light"] .profile-role, html[data-theme="light"] .profile-location {
+  color: var(--muted);
+}
+
+html[data-theme="light"] .console-nav-wrap {
+  border-color: #c5ddd4;
+}
+
+html[data-theme="light"] .sidebar-nav .nav-number {
+  color: #4e756a;
+  opacity: 0.8;
+}
+
+html[data-theme="light"] .sidebar-nav a:hover {
+  background: #e8f4ef;
+}
+
+html[data-theme="light"] .sidebar-nav a.active {
+  color: #075b49;
+  background: linear-gradient(90deg, #d9f0e7, #edf8f3);
+  border-color: #b7dccc;
+  box-shadow: none;
+}
+
+html[data-theme="light"] .sidebar-nav a.active .nav-number {
+  color: #075b49;
+  opacity: 1;
+}
+
+html[data-theme="light"] .profile-socials a.social-icon {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 3px 10px #08735b18;
+}
+
+html[data-theme="light"] .profile-socials a.social-icon:hover, html[data-theme="light"] .profile-socials a.social-icon:focus-visible {
+  color: #ffffff;
+  background: #055840;
+  border-color: #055840;
+  box-shadow: 0 4px 16px #08735b26;
+}
+
+html[data-theme="light"] .button.primary, html[data-theme="light"] .all-projects-button {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+  box-shadow: 0 8px 24px #08735b20;
+}
+
+html[data-theme="light"] .hero-actions .primary:hover, html[data-theme="light"] .all-projects-button:hover {
+  color: #ffffff;
+  background: #055840;
+  border-color: #055840;
+  box-shadow: 0 10px 28px #08735b2b;
+}
+
+html[data-theme="light"] .resume-button {
+  color: var(--accent);
+  border-color: #74a994;
+  background: transparent;
+}
+
+html[data-theme="light"] .resume-button:hover {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+html[data-theme="light"] .resume-button:hover .resume-arrow {
+  color: #ffffff;
+}
+
+html[data-theme="light"] .cmd-trigger:hover, html[data-theme="light"] .cmd-trigger:focus-visible {
+  color: #075b49;
+  background: #def2e9;
+  border-color: #79b5a1;
+  box-shadow: 0 0 15px #08735b18;
+}
+
+html[data-theme="light"] .portfolio-content .neural-stage {
+  background: radial-gradient(ellipse at center, #d9f0e73d, transparent 72%);
+}
+
+html[data-theme="light"] .node-label {
+  color: #075b49;
+  background: #ffffffed;
+  border-color: #89b9a9;
+  box-shadow: 0 3px 14px #163d4a0c;
+}
+
+html[data-theme="light"] .node-llm, html[data-theme="light"] .node-data {
+  color: #086582;
+  border-color: #8dbaca;
+}
+
+html[data-theme="light"] #matrix-canvas {
+  opacity: 0.65;
+  mix-blend-mode: multiply;
+}
+
+html[data-theme="light"] .project-symbol, html[data-theme="light"] .project-visual {
+  color: #075b49;
+  background: radial-gradient(circle at 50% 45%, #cdece3, transparent 65%), linear-gradient(135deg, #edf7f5, #e9f1f8);
+}
+
+html[data-theme="light"] .project-symbol svg, html[data-theme="light"] .project-visual svg {
+  stroke: #08735b;
+  filter: none;
+}
+
+html[data-theme="light"] .scan-grid {
+  background-image: linear-gradient(#08735b20 1px, transparent 1px), linear-gradient(90deg, #08735b20 1px, transparent 1px);
+}
+
+html[data-theme="light"] .scan-line {
+  background: var(--accent);
+  box-shadow: 0 0 14px #08735b44;
+}
+
+html[data-theme="light"] .research-diagram [stroke="#a99cff"] {
+  stroke: var(--purple);
+}
+
+html[data-theme="light"] .research-diagram [fill="#a99cff"] {
+  fill: var(--purple);
+}
+
+html[data-theme="light"] .credential-card {
+  background: linear-gradient(150deg, #ffffff, #f4f1e9);
+  border-color: #c9c1ab;
+  box-shadow: var(--shadow);
+}
+
+html[data-theme="light"] .credential-link {
+  color: #454a3e;
+}
+
+html[data-theme="light"] .certificate-caption {
+  color: #5b6155;
+}
+
+html[data-theme="light"] .command-backdrop {
+  background: #18303d59;
+}
+
+html[data-theme="light"] .command-box {
+  border-color: #b5d0c5;
+  box-shadow: 0 24px 80px #173d4c26;
+}
+
+html[data-theme="light"] .command-results button[aria-selected="true"] {
+  color: #ffffff;
+}
+
+html[data-theme="light"] body > #back-to-top {
+  color: var(--accent);
+  background: #ffffffef;
+  border-color: #7daf9e;
+  box-shadow: 0 5px 20px #08735b26 !important;
+}
+
+html[data-theme="light"] body > #back-to-top:hover {
+  color: #ffffff;
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+html[data-theme="light"], html[data-theme="light"] * {
+  scrollbar-color: #08735b #e4eeea;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-track {
+  background: #e4eeea;
+}
+
+html[data-theme="light"] ::-webkit-scrollbar-thumb {
+  background: #08735b;
+  box-shadow: none;
+}
+
+html[data-theme="light"] .page-scroll-track {
+  background: #08735b22;
+}
+
+html[data-theme="light"] .page-scroll-track i {
+  background: #08735b66;
+}
+
+html[data-theme="light"] .page-scroll-thumb {
+  background: #08735b;
+  animation: none;
+  box-shadow: 0 0 7px #08735b33;
+}
+
+html[data-theme="light"] .page-scroll-control:hover .page-scroll-thumb {
+  background: #055840;
+  box-shadow: 0 0 10px #08735b44;
+}
+
+html[data-theme="light"] .cursor-particle, html[data-theme="light"] .cursor-pulse {
+  background-color: #08735b;
+  box-shadow: 0 0 4px #08735b33;
+}
+
+.profile-footer {
+  display: block;
+}
+
+.profile-footer .profile-socials {
+  justify-content: center;
+}
+
+.certificate-modal {
+  position: fixed;
+  margin: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html[data-theme="light"] #matrix-canvas {
+    opacity: 0.4;
+  }
+}

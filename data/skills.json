@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Python",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "JavaScript",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "HTML",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "CSS",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "jQuery",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Bootstrap",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "WordPress",
+    "category": "code",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "PHP",
+    "category": "code",
+    "level": "familiar",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "C",
+    "category": "code",
+    "level": "familiar",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "MySQL",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "SQL",
+    "category": "data",
+    "level": "familiar",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Microsoft SQL Server",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "NumPy",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Pandas",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Random Forest",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Decision Tree",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "CNN",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "ELA",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "LSTM",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "OpenCV",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Gemini",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "FastAPI",
+    "category": "data",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Figma",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Canva",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Photoshop",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Microsoft Office",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Linux",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Cisco",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "Git",
+    "category": "design",
+    "level": "listed",
+    "source": "resume / documented projects"
+  },
+  {
+    "name": "LangGraph",
+    "category": "portfolio",
+    "level": "listed",
+    "source": "portfolio implementation"
+  },
+  {
+    "name": "FAISS",
+    "category": "portfolio",
+    "level": "listed",
+    "source": "portfolio implementation"
+  },
+  {
+    "name": "Groq",
+    "category": "portfolio",
+    "level": "listed",
+    "source": "portfolio implementation"
+  },
+  {
+    "name": "GSAP",
+    "category": "portfolio",
+    "level": "listed",
+    "source": "portfolio implementation"
+  },
+  {
+    "name": "HuggingFace",
+    "category": "portfolio",
+    "level": "listed",
+    "source": "portfolio implementation"
+  }
+]

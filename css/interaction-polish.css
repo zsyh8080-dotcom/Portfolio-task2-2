@@ -1,0 +1,218 @@
+.hero-actions .resume-download-button {
+  display: inline-flex;
+  align-items: stretch;
+  gap: 0;
+  min-height: 46px;
+  padding: 0;
+  overflow: hidden;
+  isolation: isolate;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, var(--line));
+  border-radius: 10px;
+  color: #06151a;
+  background: var(--surface);
+  box-shadow: 0 4px 18px #55ffd614;
+  transition: border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.resume-download-label {
+  display: grid;
+  place-items: center;
+  padding: 10px 18px;
+  background: linear-gradient(115deg, var(--mint), var(--cyan));
+  font-weight: 700;
+}
+
+.resume-download-icon {
+  display: grid;
+  place-items: center;
+  min-width: 44px;
+  color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 8%, var(--surface));
+  border-inline-start: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  transition: background-color 180ms ease;
+}
+
+.resume-download-icon svg {
+  width: 20px;
+  height: 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: transform 180ms ease;
+}
+
+.hero-actions .resume-download-button:hover,
+.hero-actions .resume-download-button:focus-visible {
+  color: #06151a;
+  border-color: var(--accent);
+  background: var(--surface);
+  box-shadow: 0 0 22px #55ffd633;
+  transform: none;
+}
+
+.resume-download-button:hover .resume-download-icon,
+.resume-download-button:focus-visible .resume-download-icon {
+  background: color-mix(in srgb, var(--accent) 18%, var(--surface));
+}
+
+.resume-download-button:hover .resume-download-icon svg {
+  transform: translateY(2px);
+}
+
+.profile-footer .sidebar-resume-download {
+  display: flex;
+  width: 100%;
+  min-height: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  padding: 8px 10px;
+  font-size: 0.875rem;
+}
+
+.portfolio-content .neural-stage {
+  isolation: isolate;
+}
+
+#matrix-canvas {
+  z-index: 0;
+}
+
+#neural-canvas {
+  z-index: 1;
+}
+
+.education-card.glass {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ffffff0a, #55ffd605), var(--surface);
+  border: 1px solid color-mix(in srgb, var(--accent) 20%, var(--line));
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+  box-shadow: 0 8px 28px #0000001f, inset 0 1px 0 #ffffff12;
+  transition: border-color 250ms ease, box-shadow 250ms ease, background-color 250ms ease;
+}
+
+.education-card.glass::before {
+  content: "";
+  position: absolute;
+  inset: -35% auto -35% -85%;
+  width: 45%;
+  z-index: 0;
+  pointer-events: none;
+  background: linear-gradient(100deg, transparent, #ffffff16 45%, #55ffd624 55%, transparent);
+  transform: skewX(-20deg);
+}
+
+.education-card.glass > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (hover: hover) {
+  .education-card.glass:hover {
+    border-color: color-mix(in srgb, var(--accent) 65%, var(--line));
+    box-shadow: 0 14px 34px #00000029, 0 0 24px #55ffd61a, inset 0 1px 0 #ffffff24;
+  }
+
+  .education-card.glass:hover::before {
+    animation: education-glass-shine 850ms ease-out both;
+  }
+}
+
+.education-card.glass:focus-within {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--accent) 25%, transparent);
+}
+
+@keyframes education-glass-shine {
+  from { left: -85%; }
+  to { left: 140%; }
+}
+
+html[data-theme="light"] .hero-actions .resume-download-button {
+  color: #ffffff;
+  border-color: #08735b;
+  box-shadow: 0 4px 18px #08735b14;
+}
+
+html[data-theme="light"] .hero-actions .resume-download-button:hover,
+html[data-theme="light"] .hero-actions .resume-download-button:focus-visible {
+  color: #ffffff;
+  box-shadow: 0 0 0 2px #08735b1a, 0 6px 20px #08735b26;
+}
+
+html[data-theme="light"] .education-card.glass {
+  background: linear-gradient(135deg, #ffffffeb, #edf9f5d9);
+  border-color: #bdd7cd;
+  box-shadow: 0 8px 28px #183d500e, inset 0 1px 0 #ffffff;
+}
+
+html[data-theme="light"] .education-card.glass::before {
+  background: linear-gradient(100deg, transparent, #ffffffb3 45%, #a8e8d547 55%, transparent);
+}
+
+@media (hover: hover) {
+  html[data-theme="light"] .education-card.glass:hover {
+    border-color: #5ca58b;
+    box-shadow: 0 12px 30px #183d5017, 0 0 20px #08735b17, inset 0 1px 0 #ffffff;
+  }
+}
+
+@media (max-width: 900px) {
+  .profile-sidebar.has-resume .profile-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .profile-footer .sidebar-resume-download {
+    width: auto;
+    margin: 0;
+    min-height: 36px;
+    font-size: 0.8125rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-actions .resume-download-button {
+    min-height: 42px;
+    padding: 0;
+  }
+
+  .resume-download-label {
+    padding-inline: 13px;
+  }
+
+  .resume-download-icon {
+    min-width: 38px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .education-card.glass::before {
+    display: none;
+    animation: none;
+  }
+
+  .education-card.glass,
+  .hero-actions .resume-download-button,
+  .resume-download-icon,
+  .resume-download-icon svg {
+    transition: none;
+  }
+
+  .resume-download-button:hover .resume-download-icon svg {
+    transform: none;
+  }
+}
+
+html.motion-paused .education-card.glass::before {
+  display: none;
+  animation: none;
+}

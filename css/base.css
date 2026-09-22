@@ -1,0 +1,118 @@
+@font-face {
+  font-family: Vazirmatn;
+  src: url('../assets/fonts/Vazirmatn.woff2') format('woff2');
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 16px/1.75 Inter,Geist,system-ui,sans-serif;
+  transition: background-color .25s,color .25s;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button, input, textarea {
+  font: inherit;
+}
+
+button, a, input, textarea {
+  touch-action: manipulation;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+}
+
+button:disabled {
+  opacity: .6;
+  cursor: wait;
+}
+
+button {
+  background: none;
+}
+
+a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visible, [tabindex]:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 5px;
+}
+
+h1, h2, h3, p {
+  margin: 0 0 1rem;
+}
+
+h1, h2, h3 {
+  line-height: 1.2;
+  letter-spacing: -.035em;
+}
+
+h2 {
+  font-size: clamp(2rem,4vw,3.3rem);
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+p {
+  color: var(--muted);
+}
+
+code, kbd, .micro-architecture {
+  direction: ltr;
+  unicode-bidi: isolate;
+  font-family: monospace;
+}
+
+code {
+  overflow-wrap: anywhere;
+}
+
+button {
+  border: 1px solid var(--line);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+
+.skip-link {
+  position: fixed;
+  top: -100px;
+  z-index: 100;
+  background: var(--surface);
+  padding: 12px;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
+
+[hidden] {
+  display: none!important;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}

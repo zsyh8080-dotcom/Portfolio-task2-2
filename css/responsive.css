@@ -1,0 +1,134 @@
+@media(max-width:1000px) {
+  .nav-links {
+    gap: 12px;
+  }
+  .brand-copy {
+    display: none;
+  }
+  .hero-grid {
+    gap: 28px;
+  }
+  .project-grid, .focus-grid {
+    grid-template-columns: repeat(2,minmax(0,1fr));
+  }
+  .skills-grid {
+    grid-template-columns: repeat(2,1fr);
+  }
+  .hero-visual {
+    height: 400px;
+  }
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+  .footer-grid {
+    flex-wrap: wrap;
+  }
+}
+
+@media(max-width:720px) {
+  .shell {
+    width: calc(100% - 36px);
+  }
+  .section {
+    padding: 64px 0;
+  }
+  .nav {
+    height: 70px;
+    gap: 10px;
+  }
+  .nav-toggle {
+    display: grid;
+    place-content: center;
+    gap: 6px;
+    margin-inline-start: auto;
+  }
+  .nav-toggle span {
+    width: 18px;
+    height: 1px;
+    background: var(--text);
+  }
+  .nav-links {
+    display: none;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: var(--surface);
+    padding: 20px;
+    flex-direction: column;
+    border-bottom: 1px solid var(--line);
+  }
+  .nav-links.open {
+    display: flex;
+  }
+  .hero-grid, .research-grid, .contact-grid {
+    grid-template-columns: 1fr;
+  }
+  .hero {
+    padding-top: 55px;
+  }
+  .hero-visual {
+    height: 320px;
+  }
+  .project-grid, .focus-grid, .education-grid, .github-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-panels {
+    gap: 12px;
+  }
+  .info-card {
+    padding: 20px;
+  }
+  .hero-name {
+    font-size: 3rem;
+  }
+  .hero-actions {
+    gap: 8px;
+  }
+  .button {
+    font-size: .78rem;
+    padding: 10px 12px;
+  }
+  .stack-row {
+    justify-content: center;
+    gap: 20px;
+  }
+  .timeline-item {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+  .architecture-canvas {
+    padding: 24px;
+  }
+  .dag.horizontal {
+    flex-direction: column;
+  }
+  .horizontal .dag-node {
+    width: 100%;
+    min-height: auto;
+    flex-direction: row;
+  }
+  .horizontal .dag-edge {
+    height: 20px;
+    width: 1px;
+  }
+  .github-summary {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .about-lead {
+    padding: 28px;
+  }
+  .section-heading {
+    margin-bottom: 30px;
+  }
+}
+
+@media(max-width:380px) {
+  .about-panels, .skills-grid {
+    grid-template-columns: 1fr;
+  }
+  .cmd-trigger {
+    display: none;
+  }
+}

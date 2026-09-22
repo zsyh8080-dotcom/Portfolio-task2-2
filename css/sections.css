@@ -1,0 +1,423 @@
+.hero-name {
+  font-size: clamp(2.5rem,4.6vw,4.8rem);
+  font-weight: 750;
+  letter-spacing: -.055em;
+}
+
+.hero-name span {
+  color: var(--accent);
+}
+
+.typewriter-wrap {
+  height: 52px;
+  font-size: 1.35rem;
+  margin: 20px 0 12px;
+}
+
+.hero-description {
+  max-width: 510px;
+}
+
+.hero-actions {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 28px 0;
+}
+
+.hero-visual {
+  height: 460px;
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 24px;
+  overflow: hidden;
+  background: radial-gradient(ellipse at center,#18776320,transparent 70%);
+}
+
+#neural-canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.visual-hud {
+  position: absolute;
+  top: 22px;
+  left: 22px;
+  right: 22px;
+  display: flex;
+  justify-content: space-between;
+  font: 10px monospace;
+  color: var(--muted);
+}
+
+.hud-live {
+  color: var(--accent);
+}
+
+.visual-caption {
+  position: absolute;
+  bottom: 22px;
+  left: 22px;
+  right: 22px;
+  padding: 18px;
+  pointer-events: none;
+}
+
+.visual-caption span, .visual-caption small {
+  display: block;
+}
+
+.visual-caption small {
+  color: var(--muted);
+  font-size: .7rem;
+}
+
+.scroll-cue {
+  position: absolute;
+  bottom: 24px;
+  inset-inline-start: 50%;
+  font-size: .7rem;
+  color: var(--muted);
+}
+
+.stack-strip {
+  border-block: 1px solid var(--line);
+  padding: 26px 0;
+}
+
+.stack-row {
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font: 11px monospace;
+  color: var(--muted);
+}
+
+.about-lead {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.large-copy {
+  font-size: 1.5rem;
+  color: var(--text);
+}
+
+.availability {
+  font-size: .75rem;
+}
+
+.info-card p, .focus-card p {
+  font-size: .86rem;
+}
+
+.micro-architecture {
+  display: flex;
+  gap: 8px;
+  font-size: .6rem;
+  color: var(--accent);
+  margin-top: 28px;
+}
+
+.micro-architecture i {
+  font-style: normal;
+}
+
+.project-visual {
+  height: 180px;
+  position: relative;
+  background: linear-gradient(135deg,#0d2534,#153c37);
+  color: #9bf2d5;
+  display: grid;
+  place-content: center;
+  overflow: hidden;
+}
+
+.project-visual svg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #6ee7c5;
+  stroke-width: 2;
+}
+
+.project-visual svg .ghost {
+  opacity: .3;
+}
+
+.visual-label {
+  position: absolute;
+  bottom: 18px;
+  left: 22px;
+  font: 10px monospace;
+}
+
+.scan-grid {
+  position: absolute;
+  inset: 20px;
+  background-image: linear-gradient(#6ee7c522 1px,transparent 1px),linear-gradient(90deg,#6ee7c522 1px,transparent 1px);
+  background-size: 25px 25px;
+}
+
+.scan-line {
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 50%;
+  height: 2px;
+  background: #6ee7c5;
+  box-shadow: 0 0 20px #6ee7c5;
+}
+
+.health-visual strong {
+  font-size: 2.8rem;
+}
+
+.health-visual small {
+  font: 10px monospace;
+}
+
+.research-state {
+  font: 10px monospace;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 24px;
+}
+
+.research-facts div {
+  padding: 18px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+dt {
+  font-size: .78rem;
+  color: var(--accent);
+}
+
+dd {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: .9rem;
+}
+
+.lab-panel {
+  padding: 28px;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  font: 10px monospace;
+  color: var(--muted);
+  margin-bottom: 24px;
+}
+
+.dag {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dag-node {
+  border-radius: 10px;
+  background: var(--bg);
+  padding: 14px 18px;
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.dag-node span {
+  font: 10px monospace;
+  color: var(--accent);
+}
+
+.dag-node b {
+  font-size: .9rem;
+}
+
+.dag-node.active, .dag-node:hover {
+  border-color: var(--accent);
+}
+
+.dag-edge {
+  height: 24px;
+  width: 1px;
+  background: var(--line);
+}
+
+.dag-edge.active {
+  background: var(--accent);
+}
+
+.architecture-tabs {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.arch-tab {
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.arch-tab.active {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+.architecture-canvas {
+  padding: 44px;
+}
+
+.dag.horizontal {
+  flex-direction: row;
+}
+
+.horizontal .dag-node {
+  flex: 1;
+  min-height: 90px;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.horizontal .dag-edge {
+  height: 1px;
+  width: 28px;
+  flex-shrink: 0;
+}
+
+.dag-tooltip {
+  min-height: 28px;
+  color: var(--muted);
+  font-size: .8rem;
+  margin-top: 20px;
+}
+
+.timeline {
+  position: relative;
+  padding-inline-start: 36px;
+}
+
+.timeline-progress {
+  position: absolute;
+  inset-inline-start: 4px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: var(--accent);
+  transform-origin: top;
+}
+
+.timeline-item {
+  position: relative;
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  gap: 28px;
+  margin-bottom: 32px;
+}
+
+.timeline-dot {
+  position: absolute;
+  inset-inline-start: -37px;
+  top: 10px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.timeline-date {
+  font: 12px monospace;
+  padding-top: 10px;
+  color: var(--muted);
+}
+
+.timeline-content {
+  padding: 28px;
+}
+
+.github-summary {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.github-summary strong, .github-summary span {
+  display: block;
+}
+
+.github-summary span, .github-state {
+  font-size: .75rem;
+  color: var(--muted);
+}
+
+.repo-skeleton {
+  height: 150px;
+  border-radius: 18px;
+  background: var(--surface);
+  animation: pulse 1.5s infinite;
+}
+
+.repo-card {
+  padding: 24px;
+  overflow-wrap: anywhere;
+}
+
+.repo-card h3 {
+  font-size: 1rem;
+}
+
+.repo-card p {
+  font-size: .8rem;
+}
+
+.degree-year {
+  font: 12px monospace;
+  color: var(--accent);
+  margin-bottom: 24px;
+}
+
+.education-card small {
+  display: block;
+  margin-top: 24px;
+  color: var(--muted);
+}
+
+.contact-link {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 5px;
+  width: 100%;
+  padding: 22px 0;
+  text-align: start;
+  border: 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.contact-link span {
+  grid-column: 1/-1;
+  font-size: .75rem;
+  color: var(--muted);
+}
+
+.contact-link strong {
+  font-size: clamp(.9rem,2vw,1.4rem);
+}
+
+.footer-meta, .site-footer p {
+  font-size: .75rem;
+}
+
+.footer-links {
+  flex-wrap: wrap;
+  font-size: .8rem;
+}
+
+.all-projects-intro {
+  max-width: 720px;
+}

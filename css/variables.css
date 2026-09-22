@@ -1,0 +1,20 @@
+:root {
+  --bg: #090e17;
+  --surface: #111a27;
+  --text: #edf3fa;
+  --muted: #9daec2;
+  --line: #293647;
+  --accent: #6ee7c5;
+  --shadow: 0 20px 60px #0003;
+  color-scheme: dark;
+}
+
+html[data-theme="light"] {
+  --bg: #f5f7fa;
+  --surface: #fff;
+  --text: #162333;
+  --muted: #526477;
+  --line: #d4dfe8;
+  --accent: #08795f;
+  color-scheme: light;
+}
