@@ -45,11 +45,16 @@ Portfolio-task2-2/
 │   ├── projects.json
 │   └── skills.json
 ├── assets/
+│   ├── documents/
+│   │   └── zahrasadat-yaghoubi-resume.pdf
 │   ├── portrait/
 │   ├── certificates/
 │   ├── fonts/
 │   ├── screenshots/
 │   └── vendor/
+│       ├── README.md
+│       ├── gsap.min.js
+│       └── typed.min.js
 ├── LICENSES/
 └── README.md
 ```
@@ -78,7 +83,7 @@ http://localhost:8000
 
 ## نگهداری و توسعه
 
-محتوای متنی و ترجمه‌ها در فایل‌های HTML و `data/i18n.json` قرار دارند. اطلاعات پروژه‌ها در `data/projects.json` نگهداری می‌شود و فایل‌های مربوط به ظاهر و چیدمان در پوشهٔ `css` قرار گرفته‌اند. تصاویر، فونت‌ها، گواهی‌ها و رزومه در پوشهٔ `assets` هستند.
+محتوای متنی و ترجمه‌ها در فایل‌های HTML و `data/i18n.json` قرار دارند. اطلاعات پروژه‌ها در `data/projects.json` نگهداری می‌شود و فایل‌های مربوط به ظاهر و چیدمان در پوشهٔ `css` قرار گرفته‌اند. تصاویر، فونت‌ها و گواهی‌ها در پوشهٔ `assets` و رزومه در `assets/documents` قرار دارد. اطلاعات کتابخانه‌های محلی در `assets/vendor/README.md` ثبت شده است.
 
 ## مجوز و منابع
 

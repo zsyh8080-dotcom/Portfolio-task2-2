@@ -29,7 +29,7 @@ export function initializeSearch() {
     { englishLabel: "Projects", persianLabel: "پروژه‌ها", run: () => navigateTo("projects.html") },
     { englishLabel: "Research", persianLabel: "پژوهش", run: () => navigateTo("research.html") },
     { englishLabel: "Experience", persianLabel: "تجربه", run: () => navigateToSection("experience") },
-    { englishLabel: "Resume", persianLabel: "رزومه", run: () => navigateTo("assets/Zahrasadat-Yaghoubi-Resume.pdf") },
+    { englishLabel: "Resume", persianLabel: "رزومه", run: () => navigateTo("assets/documents/zahrasadat-yaghoubi-resume.pdf") },
     { englishLabel: "GitHub", persianLabel: "گیت‌هاب", run: () => navigateTo("https://github.com/zsyh8080-dotcom/") },
     { englishLabel: "Theme", persianLabel: "پوسته", run: toggleTheme },
     { englishLabel: "Language", persianLabel: "زبان", run: toggleLanguage }
